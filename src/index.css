@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	padding: 0;
 	background-color: #282c34;
 	color: white;
 	width: 100vw;
@@ -17,8 +18,8 @@ code {
 }
 
 a {
-	color: #61dafb;
+	color: #fff;
+	display: block;
 	text-decoration: none;
-	margin: 0.5rem 0;
 	cursor: pointer;
 }

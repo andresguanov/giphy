@@ -1,4 +1,22 @@
+:root {
+	--results-columns: 2;
+}
+
 .ListGifs {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	width: 100%;
+	column-count: var(--results-columns);
+	column-gap: 0.5rem;
+	min-height: 100vh;
+}
+
+@media (min-width: 600px) {
+	:root {
+		--results-columns: 3;
+	}
+}
+
+@media (min-width: 800px) {
+	:root {
+		--results-columns: 4;
+	}
 }

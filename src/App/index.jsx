@@ -1,8 +1,8 @@
-import './App.css'
 import { Route, Link } from 'wouter'
 import { Home } from '/src/Pages/Home'
 import { Detail } from '/src/Pages/Detail'
 import { SearchResults } from '/src/Pages/SearchResults'
+import './App.css'
 
 
 
@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
       <section className="App-content">
-        <Link to="/">
-          <span>Home</span>
+        <Link to="/" className='App-logo'>
+          <span>Giphy</span>
           <ion-icon name="home"></ion-icon>
         </Link>
         <Route

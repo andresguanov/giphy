@@ -1,13 +1,25 @@
 .App {
 	display: grid;
 	place-content: center;
-	width: 100vw;
 	min-height: 100vh;
 }
 
-.App .App-links {
-	display: flex;
-	flex-direction: column;
+.App-content {
+	display: grid;
+	place-items: center;
+	min-width: 100vw;
+}
+
+.App-logo {
+	text-align: center;
+	margin: 10px auto;
+	padding: 20px 0;
+	width: 200px;
+	font-size: 2rem; /*Size of icon*/
+}
+
+.App-logo span {
+	margin: 0 1rem;
 }
 
 button {
