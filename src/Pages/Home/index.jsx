@@ -1,9 +1,9 @@
-import { Link, useLocation } from "wouter"
-import { ListGifs } from "../../components/ListGifs"
-import { Spinner } from "../../components/Spinner"
-import { useGifs } from "../../hooks/useGifs"
+import { useLocation } from "wouter"
+import { ListGifs } from "@/components/ListGifs"
+import { Spinner } from "@/components/Spinner"
+import { useGifs } from "@/hooks/useGifs"
+import { Categorys } from "@/components/Categorys"
 
-const POPULAR_GIFS = ["Matrix", "Chile", "Colombia"]
 
 export const Home = () => {
 
@@ -36,17 +36,7 @@ export const Home = () => {
                 }
 
             </div>
-            <ul>
-                {
-                    POPULAR_GIFS.map(popularGif => (
-                        <li key={popularGif}>
-                            <Link to={`/search/${popularGif}`} >
-                                Gifs de {popularGif}
-                            </Link>
-                        </li>
-                    ))
-                }
-            </ul>
+            <Categorys />
         </>
     )
 }

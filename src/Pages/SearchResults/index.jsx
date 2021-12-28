@@ -1,6 +1,6 @@
-import { ListGifs } from "../../components/ListGifs"
-import { Spinner } from '../../components/Spinner'
-import { useGifs } from "../../hooks/useGifs"
+import { ListGifs } from "@/components/ListGifs"
+import { Spinner } from '@/components/Spinner'
+import { useGifs } from "@/hooks/useGifs"
 
 export const SearchResults = ({ params }) => {
 

@@ -1,13 +1,12 @@
 .App {
 	display: grid;
 	place-content: center;
-	min-height: 100vh;
 }
 
 .App-content {
 	display: grid;
 	place-items: center;
-	min-width: 100vw;
+	width: 90vw;
 }
 
 .App-logo {

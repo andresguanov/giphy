@@ -1,4 +1,4 @@
-import { Gif } from '../Gif'
+import { Gif } from '@/components/Gif'
 import './ListGifs.css'
 
 const ListGifs = ({ gifs }) => {
@@ -15,8 +15,6 @@ const ListGifs = ({ gifs }) => {
             )
         }
     </div>
-
-
 }
 
 export { ListGifs }

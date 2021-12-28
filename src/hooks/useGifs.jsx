@@ -1,5 +1,5 @@
+import { getData } from "@/services/getData"
 import { useEffect, useState } from "react"
-import { getData } from '../services/getData'
 
 
 export const useGifs = ({ keyword } = { keyword: null }) => {
@@ -19,7 +19,7 @@ export const useGifs = ({ keyword } = { keyword: null }) => {
             .then(res => {
                 setGifs(res)
                 setLoading(false)
-                localStorage.setItem('lastKeyword', keyword)
+                keyword && localStorage.setItem('lastKeyword', keyword)
             })
 
     }, [keyword])

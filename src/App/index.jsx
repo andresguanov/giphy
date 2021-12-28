@@ -1,8 +1,9 @@
+import { Detail } from '@/Pages/Detail'
+import { Home } from '@/Pages/Home'
+import { SearchResults } from '@/Pages/SearchResults'
 import { Route, Link } from 'wouter'
-import { Home } from '/src/Pages/Home'
-import { Detail } from '/src/Pages/Detail'
-import { SearchResults } from '/src/Pages/SearchResults'
 import './App.css'
+
 
 
 

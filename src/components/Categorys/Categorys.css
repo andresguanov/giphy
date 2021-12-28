@@ -1,0 +1,13 @@
+.Categorys {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	margin: 3rem 0;
+}
+
+.Categorys-trend {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	justify-content: center;
+}
