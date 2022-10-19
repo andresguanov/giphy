@@ -2,7 +2,7 @@ import { useLocation } from "wouter"
 import { ListGifs } from "@/components/ListGifs"
 import { Spinner } from "@/components/Spinner"
 import { useGifs } from "@/hooks/useGifs"
-import { Categorys } from "@/components/Categorys"
+import { LazyTrending } from "@/components/Categories"
 
 
 export const Home = () => {
@@ -26,7 +26,7 @@ export const Home = () => {
                 />
             </form>
             <h3 className="App-title">Home title</h3>
-            <div className="App-content">
+            <div className="App-content App-content__lastSearch">
                 <h3 className="App-title">
                     Última búsqueda
                 </h3>
@@ -36,7 +36,7 @@ export const Home = () => {
                 }
 
             </div>
-            <Categorys />
+            <LazyTrending />
         </>
     )
 }

@@ -5,8 +5,13 @@
 
 .App-content {
 	display: grid;
+	grid-template-rows: 5rem auto;
 	place-items: center;
 	width: 90vw;
+}
+
+.App-content__lastSearch {
+	min-height: 75vh;
 }
 
 .App-logo {
